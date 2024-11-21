@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.mensaje{
+    font-size: 18px;
+}
+
+.principal{
+    display: flex;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+.containerLogin{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 40px;
+}
+
+.orden{
+    background-color: #B4F2B3;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.orden2{
+    background-color: #B4F2B3;
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+}
+
+.reseña{
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+}
+
+.envio{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fuente{
+    font-size: 24px;
+    color: #27AE60;
+    font-weight: bold;
+}
+
+.alinear{
+    text-align: center;
+}
+
+.need{
+    font-size: 30px;
+    color: #A59F9F;
+}
+
+.categorias{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.vista{
+    width: 302px;
+    height: 206px;
+}
+.aboutus{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #B4F2B3;
+}
+
+.secundario{
+    display: flex;
+}
+
+.nosotros{
+    font-size: 36px;
+}
+
+button{
+    color: white;
+    background-color: #1AC261;
+    width: 288px;
+    height: 80px;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+}
+
+.separacion{
+    height: 10vh;
+}
+
+.review{
+    width: 100px;
+    height: 100px;
+}
+
+.star{
+    width: 40px;
+    height: 40px;
+}
+
+.final{
+    text-align: center;
+}
+
+.borde{
+    font-size: 30px;
+    border: 2px solid grey;
+}
